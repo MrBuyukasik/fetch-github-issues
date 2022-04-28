@@ -1,8 +1,8 @@
 import React from 'react';
 import paths from './paths';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import IssuesPresentatıonScreen from '../pages/IssuesPresentatıonScreen';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import IssuesPresentatıonScreen from '../pages/IssuesPresentationScreen';
 import IssuesSearchScreen from '../pages/IssuesSearchScreen';
 import IssueDetailsScreen from '../pages/IssueDetailsScreen';
 
