@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GithubSearchCard Testing renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+          "marginRight": 16,
+          "marginTop": 16,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "width": "100%",
+          },
+          Object {
+            "marginBottom": 6,
+            "marginLeft": 6,
+            "marginRight": 6,
+            "marginTop": 6,
+          },
+        ]
+      }
+      testID="Enter Organization name"
+    >
+      Enter Organization name
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#000000",
+            "borderRadius": 10,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 2,
+            "marginLeft": 2,
+            "marginRight": 2,
+            "marginTop": 2,
+            "paddingBottom": 10,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 10,
+            "width": "100%",
+          },
+        ]
+      }
+    />
+  </View>,
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+          "marginRight": 16,
+          "marginTop": 16,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "width": "100%",
+          },
+          Object {
+            "marginBottom": 6,
+            "marginLeft": 6,
+            "marginRight": 6,
+            "marginTop": 6,
+          },
+        ]
+      }
+      testID="Enter Repository name"
+    >
+      Enter Repository name
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#000000",
+            "borderRadius": 10,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 2,
+            "marginLeft": 2,
+            "marginRight": 2,
+            "marginTop": 2,
+            "paddingBottom": 10,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 10,
+            "width": "100%",
+          },
+        ]
+      }
+    />
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#3DBDFF",
+        "borderRadius": 12,
+        "height": 50,
+        "marginTop": 20,
+        "opacity": 1,
+        "width": "50%",
+      }
+    }
+    testID="Search Issues"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "width": "100%",
+            },
+            Object {
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Search Issues
+      </Text>
+    </View>
+  </View>,
+]
+`;

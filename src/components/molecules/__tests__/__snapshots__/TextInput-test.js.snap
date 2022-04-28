@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header test renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 16,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+          "width": "100%",
+        },
+        Object {
+          "marginBottom": 6,
+          "marginLeft": 6,
+          "marginRight": 6,
+          "marginTop": 6,
+        },
+      ]
+    }
+  >
+    Facebook
+  </Text>
+  <TextInput
+    onChangeText={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#000000",
+          "borderRadius": 10,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "fontSize": 18,
+          "height": 50,
+          "marginBottom": 2,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 2,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+</View>
+`;

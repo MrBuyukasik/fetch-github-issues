@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Modal test renders correctly 1`] = `
+<View
+  animated={true}
+  defaultIndex={-1}
+  defaultValue="Filter Issues"
+  disabled={false}
+  dropdownStyle={
+    Object {
+      "width": "30%",
+    }
+  }
+  dropdownTextStyle={
+    Object {
+      "fontSize": 14,
+    }
+  }
+  isFullWidth={false}
+  keySearchObject="label"
+  keyboardShouldPersistTaps="never"
+  multipleSelect={false}
+  numberOfLines={1}
+  onSelect={[Function]}
+  options={
+    Array [
+      "open",
+      "closed",
+      "all",
+    ]
+  }
+  renderButtonComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  renderRightComponent={[Function]}
+  renderRowComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  saveScrollPosition={true}
+  scrollEnabled={true}
+  searchPlaceholder="Search"
+  showSearch={false}
+  showsVerticalScrollIndicator={true}
+  style={
+    Object {
+      "borderColor": "black",
+      "borderWidth": 1,
+      "padding": 5,
+    }
+  }
+  textStyle={
+    Object {
+      "fontSize": 12,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    forwardedRef={[Function]}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+            },
+            Array [
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Filter Issues
+      </Text>
+      <View />
+    </View>
+  </View>
+</View>
+`;
