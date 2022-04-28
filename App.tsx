@@ -8,21 +8,19 @@
  * @format
  */
 
-import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-import HomeScreen from './src/pages/HomeScreen';
-
-const Stack = createNativeStackNavigator();
+import {NativeBaseProvider} from 'native-base';
+import React from 'react';
+import {Provider} from 'react-redux';
+import store from './src/redux/store';
+import Routers from './src/routes/Routers';
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Provider store={store}>
+      <NativeBaseProvider>
+        <Routers />
+      </NativeBaseProvider>
+    </Provider>
   );
 };
 
