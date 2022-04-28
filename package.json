@@ -7,15 +7,25 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@react-native-community/picker": "^1.8.1",
     "@react-navigation/native": "^6.0.10",
     "@react-navigation/native-stack": "^6.6.2",
+    "@reduxjs/toolkit": "^1.5.1",
+    "mock-async-storage": "^2.2.0",
+    "native-base": "^3.4.3",
     "react": "17.0.2",
     "react-native": "0.68.1",
+    "react-native-modal-dropdown": "^1.0.2",
     "react-native-safe-area-context": "^4.2.5",
     "react-native-screens": "^3.13.1",
+    "react-native-svg": "^12.3.0",
+    "react-native-vector-icons": "^9.1.0",
+    "react-redux": "^7.2.3",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
@@ -33,13 +43,25 @@
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.67.0",
     "react-test-renderer": "17.0.2",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "@types/react-redux": "^7.1.16",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-native": "^7.2.0"
   },
   "resolutions": {
     "@types/react": "^17"
   },
   "jest": {
     "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./src/utils/store.ts",
+      "./src/pages/IssueDetailsScreen.tsx",
+      "./src/pages/IssuesPresentatıonScreen.tsx",
+      "./src/pages/IssuesSearchScreen.tsx"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -47,6 +69,9 @@
       "jsx",
       "json",
       "node"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|rollbar-react-native|@fortawesome|@react-native|@react-navigation)"
     ]
   }
 }
