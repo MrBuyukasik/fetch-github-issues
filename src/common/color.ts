@@ -4,4 +4,12 @@ export const color = {
   LIGHT_BLUE: '#ADB9C3',
   DARK_BLUE: '#3878A2',
   WHITE: '#FFFFFF',
+  BLACK: '#000000',
+  AQUA_BLUE: '#3DBDFF',
+  RED: '#FF0000',
+  GREEN: '#00FF00',
+  ACTIVITY_INDICATOR: '#7dcea0',
+  NAVBAR_TEXT: '#fdedec',
+  NAVBAR: '#c0392b',
+  ITEM_TITLE: '#09182b',
 };
