@@ -16,6 +16,13 @@ install project dependencies, for iOS you also use `cd ios && pod install` for f
 ### `npm start`
 Init React-native metro bundler.
 
+### `npm run test:coverage`
+You can check test results.
+
+
+![Screenshot at Apr 29 09-36-49](https://user-images.githubusercontent.com/15179002/165895710-8bcaeaad-1cfc-40d9-9fa4-92d63e6abf4b.png)
+
+
 
 ## Prerequisites
 
